@@ -1,0 +1,9 @@
+E:\Proyectos\Visual Studio Projects\EmpresaTransporte\EmpresaTransporte.Entities\bin\Debug\EmpresaTransporte.Entities.dll
+E:\Proyectos\Visual Studio Projects\EmpresaTransporte\EmpresaTransporte.Entities\bin\Debug\EmpresaTransporte.Entities.pdb
+E:\Proyectos\Visual Studio Projects\EmpresaTransporte\EmpresaTransporte.Entities\obj\Debug\EmpresaTransporte.Entities.dll
+E:\Proyectos\Visual Studio Projects\EmpresaTransporte\EmpresaTransporte.Entities\obj\Debug\EmpresaTransporte.Entities.pdb
+E:\Proyectos\Visual Studio Projects\MIGRATIONS\EmpresaTransporte\EmpresaTransporte.Entities\bin\Debug\EmpresaTransporte.Entities.dll
+E:\Proyectos\Visual Studio Projects\MIGRATIONS\EmpresaTransporte\EmpresaTransporte.Entities\bin\Debug\EmpresaTransporte.Entities.pdb
+E:\Proyectos\Visual Studio Projects\MIGRATIONS\EmpresaTransporte\EmpresaTransporte.Entities\obj\Debug\EmpresaTransporte.Entities.dll
+E:\Proyectos\Visual Studio Projects\MIGRATIONS\EmpresaTransporte\EmpresaTransporte.Entities\obj\Debug\EmpresaTransporte.Entities.pdb
+E:\Proyectos\Visual Studio Projects\MIGRATIONS\EmpresaTransporte\EmpresaTransporte.Entities\obj\Debug\EmpresaTransporte.Entities.csprojResolveAssemblyReference.cache

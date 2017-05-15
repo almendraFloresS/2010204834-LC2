@@ -1,0 +1,14 @@
+E:\Proyectos\Visual Studio Projects\MIGRATIONS\EmpresaTransporte\EmpresaTransporte.Persistance\bin\Debug\EmpresaTransporte.Persistance.dll.config
+E:\Proyectos\Visual Studio Projects\MIGRATIONS\EmpresaTransporte\EmpresaTransporte.Persistance\bin\Debug\EmpresaTransporte.Persistance.dll
+E:\Proyectos\Visual Studio Projects\MIGRATIONS\EmpresaTransporte\EmpresaTransporte.Persistance\bin\Debug\EmpresaTransporte.Persistance.pdb
+E:\Proyectos\Visual Studio Projects\MIGRATIONS\EmpresaTransporte\EmpresaTransporte.Persistance\bin\Debug\EmpresaTransporte.Entities.dll
+E:\Proyectos\Visual Studio Projects\MIGRATIONS\EmpresaTransporte\EmpresaTransporte.Persistance\bin\Debug\EntityFramework.dll
+E:\Proyectos\Visual Studio Projects\MIGRATIONS\EmpresaTransporte\EmpresaTransporte.Persistance\bin\Debug\EntityFramework.SqlServer.dll
+E:\Proyectos\Visual Studio Projects\MIGRATIONS\EmpresaTransporte\EmpresaTransporte.Persistance\bin\Debug\EmpresaTransporte.Entities.pdb
+E:\Proyectos\Visual Studio Projects\MIGRATIONS\EmpresaTransporte\EmpresaTransporte.Persistance\bin\Debug\EntityFramework.xml
+E:\Proyectos\Visual Studio Projects\MIGRATIONS\EmpresaTransporte\EmpresaTransporte.Persistance\bin\Debug\EntityFramework.SqlServer.xml
+E:\Proyectos\Visual Studio Projects\MIGRATIONS\EmpresaTransporte\EmpresaTransporte.Persistance\obj\Debug\EmpresaTransporte.Persistance.csprojResolveAssemblyReference.cache
+E:\Proyectos\Visual Studio Projects\MIGRATIONS\EmpresaTransporte\EmpresaTransporte.Persistance\obj\Debug\EmpresaTransporte.Persistance.dll
+E:\Proyectos\Visual Studio Projects\MIGRATIONS\EmpresaTransporte\EmpresaTransporte.Persistance\obj\Debug\EmpresaTransporte.Persistance.pdb
+E:\Proyectos\Visual Studio Projects\MIGRATIONS\EmpresaTransporte\EmpresaTransporte.Persistance\obj\Debug\EmpresaTransporte.Persistance.Migrations.InitialModel.resources
+E:\Proyectos\Visual Studio Projects\MIGRATIONS\EmpresaTransporte\EmpresaTransporte.Persistance\obj\Debug\EmpresaTransporte.Persistance.csproj.GenerateResource.Cache
