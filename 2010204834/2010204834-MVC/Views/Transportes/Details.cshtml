@@ -1,0 +1,83 @@
+﻿@model _2010204834_ENT.Entities.Transporte
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Transporte</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.lugarviaje.nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.lugarviaje.nombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NombreServicio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NombreServicio)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OrigenTransporte)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OrigenTransporte)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DestinoTransporte)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DestinoTransporte)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.fecha)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fecha)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.montoTransporte)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.montoTransporte)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tipoviaje)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tipoviaje)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.bus.placa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.bus.placa)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.idServicio }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

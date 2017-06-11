@@ -1,0 +1,15 @@
+E:\Proyectos\Visual Studio Projects\2010204834-MVC\2010204834-PER\obj\Debug\2010204834-PER.csprojResolveAssemblyReference.cache
+E:\Proyectos\Visual Studio Projects\MVC_WEB API\LABORATORIOS\NuevaCOnfiguracionALMENDRA\2010204834\2010204834-PER\bin\Debug\2010204834-PER.dll.config
+E:\Proyectos\Visual Studio Projects\MVC_WEB API\LABORATORIOS\NuevaCOnfiguracionALMENDRA\2010204834\2010204834-PER\bin\Debug\2010204834-PER.dll
+E:\Proyectos\Visual Studio Projects\MVC_WEB API\LABORATORIOS\NuevaCOnfiguracionALMENDRA\2010204834\2010204834-PER\bin\Debug\2010204834-PER.pdb
+E:\Proyectos\Visual Studio Projects\MVC_WEB API\LABORATORIOS\NuevaCOnfiguracionALMENDRA\2010204834\2010204834-PER\bin\Debug\2010204834-ENT.dll
+E:\Proyectos\Visual Studio Projects\MVC_WEB API\LABORATORIOS\NuevaCOnfiguracionALMENDRA\2010204834\2010204834-PER\bin\Debug\EntityFramework.dll
+E:\Proyectos\Visual Studio Projects\MVC_WEB API\LABORATORIOS\NuevaCOnfiguracionALMENDRA\2010204834\2010204834-PER\bin\Debug\EntityFramework.SqlServer.dll
+E:\Proyectos\Visual Studio Projects\MVC_WEB API\LABORATORIOS\NuevaCOnfiguracionALMENDRA\2010204834\2010204834-PER\bin\Debug\2010204834-ENT.pdb
+E:\Proyectos\Visual Studio Projects\MVC_WEB API\LABORATORIOS\NuevaCOnfiguracionALMENDRA\2010204834\2010204834-PER\bin\Debug\EntityFramework.xml
+E:\Proyectos\Visual Studio Projects\MVC_WEB API\LABORATORIOS\NuevaCOnfiguracionALMENDRA\2010204834\2010204834-PER\bin\Debug\EntityFramework.SqlServer.xml
+E:\Proyectos\Visual Studio Projects\MVC_WEB API\LABORATORIOS\NuevaCOnfiguracionALMENDRA\2010204834\2010204834-PER\obj\Debug\2010204834-PER.csprojResolveAssemblyReference.cache
+E:\Proyectos\Visual Studio Projects\MVC_WEB API\LABORATORIOS\NuevaCOnfiguracionALMENDRA\2010204834\2010204834-PER\obj\Debug\2010204834-PER.dll
+E:\Proyectos\Visual Studio Projects\MVC_WEB API\LABORATORIOS\NuevaCOnfiguracionALMENDRA\2010204834\2010204834-PER\obj\Debug\2010204834-PER.pdb
+E:\Proyectos\Visual Studio Projects\MVC_WEB API\LABORATORIOS\NuevaCOnfiguracionALMENDRA\2010204834\2010204834-PER\obj\Debug\_2010204834_PER.Migrations.InitialModel.resources
+E:\Proyectos\Visual Studio Projects\MVC_WEB API\LABORATORIOS\NuevaCOnfiguracionALMENDRA\2010204834\2010204834-PER\obj\Debug\2010204834-PER.csproj.GenerateResource.Cache

@@ -1,0 +1,67 @@
+﻿@model _2010204834_ENT.Entities.Encomienda
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Encomienda</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.lugarviaje.nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.lugarviaje.nombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NombreServicio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NombreServicio)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OrigenEncomienda)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OrigenEncomienda)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DestinoEncomienda)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DestinoEncomienda)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.montoEncomienda)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.montoEncomienda)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.descripcion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.descripcion)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.idServicio }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

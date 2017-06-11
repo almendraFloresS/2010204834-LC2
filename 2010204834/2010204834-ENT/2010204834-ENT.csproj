@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{660923BC-0637-48DC-9979-F1B5DBDF2B72}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>_2010204834_ENT</RootNamespace>
+    <AssemblyName>2010204834-ENT</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EntitiesDTO\AdministrativoDTO.cs" />
+    <Compile Include="EntitiesDTO\BusDTO.cs" />
+    <Compile Include="EntitiesDTO\ClienteDTO.cs" />
+    <Compile Include="EntitiesDTO\EmpleadoDTO.cs" />
+    <Compile Include="EntitiesDTO\EncomiendaDTO.cs" />
+    <Compile Include="EntitiesDTO\LugarViajeDTO.cs" />
+    <Compile Include="EntitiesDTO\ServicioDTO.cs" />
+    <Compile Include="EntitiesDTO\TransporteDTO.cs" />
+    <Compile Include="EntitiesDTO\TripulacionDTO.cs" />
+    <Compile Include="EntitiesDTO\VentaDTO.cs" />
+    <Compile Include="Entities\Administrativo.cs" />
+    <Compile Include="Entities\Bus.cs" />
+    <Compile Include="Entities\Cliente.cs" />
+    <Compile Include="Entities\Empleado.cs" />
+    <Compile Include="Entities\Encomienda.cs" />
+    <Compile Include="Entities\LugarViaje.cs" />
+    <Compile Include="Entities\Servicio.cs" />
+    <Compile Include="Entities\TipoComprobante.cs" />
+    <Compile Include="Entities\TipoEmpleado.cs" />
+    <Compile Include="Entities\TipoLugar.cs" />
+    <Compile Include="Entities\TipoPago.cs" />
+    <Compile Include="Entities\TipoTripulacion.cs" />
+    <Compile Include="Entities\TipoViaje.cs" />
+    <Compile Include="Entities\Transporte.cs" />
+    <Compile Include="Entities\Tripulacion.cs" />
+    <Compile Include="Entities\Venta.cs" />
+    <Compile Include="IRepository\IRepoBus.cs" />
+    <Compile Include="IRepository\IRepoCliente.cs" />
+    <Compile Include="IRepository\IRepoEmpleado.cs" />
+    <Compile Include="IRepository\IRepoLugarViaje.cs" />
+    <Compile Include="IRepository\IRepoServicio.cs" />
+    <Compile Include="IRepository\IRepository.cs" />
+    <Compile Include="IRepository\IRepoVenta.cs" />
+    <Compile Include="IRepository\IUnityOfWork.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

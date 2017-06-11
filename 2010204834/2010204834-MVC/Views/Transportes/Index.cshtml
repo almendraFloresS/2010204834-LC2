@@ -1,0 +1,76 @@
+﻿@model IEnumerable<_2010204834_ENT.Entities.Transporte>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.lugarviaje.nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NombreServicio)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.OrigenTransporte)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DestinoTransporte)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.fecha)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.montoTransporte)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.tipoviaje)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.bus.placa)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.lugarviaje.nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NombreServicio)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.OrigenTransporte)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DestinoTransporte)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.fecha)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.montoTransporte)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.tipoviaje)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.bus.placa)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.idServicio }) |
+            @Html.ActionLink("Details", "Details", new { id=item.idServicio }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.idServicio })
+        </td>
+    </tr>
+}
+
+</table>

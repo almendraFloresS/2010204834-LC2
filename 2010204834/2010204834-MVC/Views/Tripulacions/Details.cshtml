@@ -1,0 +1,51 @@
+﻿@model _2010204834_ENT.Entities.Tripulacion
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Tripulacion</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NombreEmpleado)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NombreEmpleado)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tipotripulacion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tipotripulacion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.licencia)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.licencia)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.fec_ingreso)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fec_ingreso)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.idEmpleado }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

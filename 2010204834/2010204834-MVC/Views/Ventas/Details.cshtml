@@ -1,0 +1,67 @@
+﻿@model _2010204834_ENT.Entities.Venta
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Venta</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.cliente.DNI)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cliente.DNI)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.servicio.NombreServicio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.servicio.NombreServicio)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.fecha_registro)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fecha_registro)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tipocomprobante)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tipocomprobante)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tipopago)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tipopago)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.monto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.monto)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.idVenta }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

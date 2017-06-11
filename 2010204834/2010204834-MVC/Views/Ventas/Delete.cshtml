@@ -1,0 +1,73 @@
+﻿@model _2010204834_ENT.Entities.Venta
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Venta</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.cliente.DNI)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cliente.DNI)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.servicio.NombreServicio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.servicio.NombreServicio)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.fecha_registro)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fecha_registro)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tipocomprobante)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tipocomprobante)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tipopago)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tipopago)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.monto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.monto)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

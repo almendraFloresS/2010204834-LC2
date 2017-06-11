@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _2010204834_ENT.EntitiesDTO
+{
+    public class BusDTO
+    {
+        public int idBus { set; get; }
+        public String placa { set; get; }
+        public int nroAsientos { set; get; }
+
+
+    }
+}

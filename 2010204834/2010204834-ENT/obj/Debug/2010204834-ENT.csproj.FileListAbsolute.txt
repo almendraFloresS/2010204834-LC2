@@ -1,0 +1,5 @@
+E:\Proyectos\Visual Studio Projects\2010204834-MVC\2010204834-ENT\obj\Debug\2010204834-ENT.csprojResolveAssemblyReference.cache
+E:\Proyectos\Visual Studio Projects\MVC_WEB API\LABORATORIOS\NuevaCOnfiguracionALMENDRA\2010204834\2010204834-ENT\bin\Debug\2010204834-ENT.dll
+E:\Proyectos\Visual Studio Projects\MVC_WEB API\LABORATORIOS\NuevaCOnfiguracionALMENDRA\2010204834\2010204834-ENT\bin\Debug\2010204834-ENT.pdb
+E:\Proyectos\Visual Studio Projects\MVC_WEB API\LABORATORIOS\NuevaCOnfiguracionALMENDRA\2010204834\2010204834-ENT\obj\Debug\2010204834-ENT.dll
+E:\Proyectos\Visual Studio Projects\MVC_WEB API\LABORATORIOS\NuevaCOnfiguracionALMENDRA\2010204834\2010204834-ENT\obj\Debug\2010204834-ENT.pdb
